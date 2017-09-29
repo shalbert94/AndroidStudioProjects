@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:orientation="horizontal">
+
+    <!--TextView that will display the titles for all list items beneath Assets and Debts-->
+    <TextView
+        android:id="@+id/summary_popular_list_item_title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        tools:text="TD Checking"/>
+
+    <!--TextView that will display the values for all list items beneath Assets and Debts-->
+    <TextView
+        android:id="@+id/summary_popular_list_item_value_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        tools:text="29,845"/>
+
+</RelativeLayout>

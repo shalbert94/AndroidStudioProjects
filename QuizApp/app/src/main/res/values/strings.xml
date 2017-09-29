@@ -1,0 +1,88 @@
+<resources>
+
+    <string name="app_name">Quiz App</string>
+
+    <!--First question-->
+    <string name="question_one">1. What is 5 X 10?</string>
+
+    <!--Question one option one-->
+    <string name="one_one">3</string>
+
+    <!--Question one option two-->
+    <string name="one_two">50</string>
+
+    <!--Question one option three-->
+    <string name="one_three">45</string>
+
+    <!--Question one option four-->
+    <string name="one_four">500</string>
+
+
+    <!--Second question-->
+    <string name="question_two">2. What is 3 + 4?</string>
+
+    <!--Question two option one-->
+    <string name="two_one">6</string>
+
+    <!--Question two option two-->
+    <string name="two_two">7</string>
+
+    <!--Question two option three-->
+    <string name="two_three">8</string>
+
+    <!--Question two option four-->
+    <string name="two_four">9</string>
+
+
+    <!--Third question-->
+    <string name="question_three">3. What is 2 / 2?</string>
+
+    <!--Question three option one-->
+    <string name="three_one">0</string>
+
+    <!--Question three option two-->
+    <string name="three_two">1</string>
+
+    <!--Question three option three-->
+    <string name="three_three">2</string>
+
+    <!--Question three option four-->
+    <string name="three_four">3</string>
+
+
+    <!--Fourth question-->
+    <string name="question_four">4. What is 7 - 8?</string>
+
+    <!--Question four option one-->
+    <string name="four_one">-2</string>
+
+    <!--Question four option two-->
+    <string name="four_two">-1</string>
+
+    <!--Question four option three-->
+    <string name="four_three">0</string>
+
+    <!--Question four option four-->
+    <string name="four_four">1</string>
+
+
+    <!--Fifth question-->
+    <string name="question_five">5. What is 8 + 10?</string>
+
+    <!--Question five option one-->
+    <string name="five_one">18</string>
+
+    <!--Question five option two-->
+    <string name="five_two">20</string>
+
+    <!--Question five option three-->
+    <string name="five_three">17</string>
+
+    <!--Question five option four-->
+    <string name="five_four">15</string>
+
+
+    <!--Submit quiz answers-->
+    <string name="submit">Submit</string>
+
+</resources>

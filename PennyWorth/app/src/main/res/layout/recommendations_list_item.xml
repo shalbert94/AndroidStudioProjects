@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/recommendation_list_item_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"
+        tools:src="@drawable/ic_credit_card_black_24dp" />
+
+    <TextView
+        android:id="@+id/recommendation_list_item_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/recommendation_list_item_icon"
+        tools:text="@string/recommendation_heading" />
+
+    <TextView
+        android:id="@+id/recommendation_list_item_benefit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/recommendation_list_item_icon"
+        android:layout_below="@id/recommendation_list_item_heading"
+        tools:text="@string/recommendation_benefit"/>
+
+    <TextView
+        android:id="@+id/recommendation_list_item_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/recommendation_list_item_icon"
+        android:layout_below="@id/recommendation_list_item_benefit"
+        tools:text="@string/recommendation_description"/>
+
+</RelativeLayout>

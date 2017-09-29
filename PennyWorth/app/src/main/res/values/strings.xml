@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PennyWorth</string>
+
+    <!--Sample recommendation strings-->
+    <string name="recommendation_heading">Credit Cards</string>
+    <string name="recommendation_benefit">Save up to $1,018</string>
+    <string name="recommendation_description">Apply for a 0% APR credit card, and transfer your Citi Double Cash
+        balance to it.</string>
+
+    <!--Budgets headings-->
+    <string name="budget_heading_weekly">Weekly</string>
+    <string name="budget_monthly_heading_bills">Monthly Bills</string>
+    <string name="budget_heading_goals">Goals</string>
+
+    <!--Budgets subcategories-->
+    <string name="budget_weekly_recreation">Recreation</string>
+    <string name="budget_weekly_transportation">Transportation</string>
+    <string name="budget_weekly_groceries">Groceries</string>
+    <string name="budget_weekly_restaurants">Restaurants</string>
+    <string name="budget_monthly_health_insurance">Health Insurance</string>
+    <string name="budget_monthly_electricity">Electricity</string>
+    <string name="budget_goals_net_worth">Net Worth: $100,000</string>
+    <string name="budget_goalsl_travel">Travel</string>
+    <string name="budget_goals_retirement">Retirement</string>
+
+    <!--Summary headings-->
+    <string name="summary_heading_credit_score">Credit Score</string>
+    <string name="summary_heading_net_worth">Net Worth</string>
+    <string name="summary_heading_assets">Assets</string>
+    <string name="summary_heading_debts">Debts</string>
+    <string name="summary_heading_retirement">Retirement</string>
+    <string name="summary_heading_insurance">Insurance</string>
+
+</resources>
